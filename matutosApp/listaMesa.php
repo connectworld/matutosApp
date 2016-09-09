@@ -82,7 +82,7 @@ while ($linha = mysql_fetch_array($sql)) {
                 </td>
                 <td>
                     <div style="padding: 3px;">
-                        <a target="_blanck" href="controllerMesa.php?cod=<?php echo $linha['codigo_mesa']; ?>&funcao=deletarMesa"><button class="btn btn-info" type="submit">Excluir</button></a>
+                        <a target="_blanck" href="controllerMesa.php?codigoMesa=<?php echo $linha['codigo_mesa']; ?>&funcao=deletarMesa"><button class="btn btn-info" type="submit">Excluir</button></a>
                     </div>
                 </td>
                   <?php }
